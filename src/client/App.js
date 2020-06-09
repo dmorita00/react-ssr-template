@@ -6,8 +6,7 @@ import { fetchCurrentUser } from "./actions";
 const App = ({ route }) => {
   return (
     <div>
-      <Header />
-      {renderRoutes(route.routes)}
+      <Header>{renderRoutes(route.routes)}</Header>
     </div>
   );
 };
